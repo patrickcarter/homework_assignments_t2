@@ -6,7 +6,7 @@ hours_per_day = 24
 days_per_week = '7'.to_i
 weeks_per_year = 52
 
-puts "There are #{seconds_per_minute} in a minute"
+puts "There are #{seconds_per_minute} seconds in a minute"
 puts "There are #{minutes_per_hour} minutes in an hour'"
 puts "There are #{hours_per_day} hours in a day"
 puts "There are #{days_per_week} days in a week"

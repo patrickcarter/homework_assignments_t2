@@ -11,8 +11,8 @@ puts 'This is a string to practice with.'.upcase
 # added double " at the start and single' to make a second string
 puts "This is a 'string' to practice with."
 # added a string variable to come up with the solution
-puts "The string '#{string_practice}' has #{string_practice.length} charcters."
+puts "The string '#{string_practice}' has #{string_practice.length} characters."
 # added method .reverse to make string print backwards
 puts 'This is a string to practice with.'.reverse
 # used method * (number of ones to print out)
-puts 'practice! ' * 3
+puts 'practice! ' *3

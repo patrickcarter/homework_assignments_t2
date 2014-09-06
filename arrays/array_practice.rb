@@ -40,8 +40,10 @@ puts "If we delete 5, 6 and 7 from the array, we're left with [" + awesome.join(
 puts "If we delete 5, 6 and 7 from the array, we're left with [#{awesome.join(',')}]"
 
 # If we add 5 at the beginning of the array, we're left with [5,1,2,3,4,8,9,10]
-puts "If we add 5 at the beginning of the array, we're left with "
+
+puts "If we add 5 at the beginning of the array, we're left with " + awesome.unshift(5)
 
 # If we add 6 at the end of the array, we're left with [5,1,2,3,4,8,9,10,6]
+puts "If we add 6 at the end of the array,we're left with "
 # Only the elements [9, 10] are > 8.
 # If we remove all the elements, then the length of the array is 0
